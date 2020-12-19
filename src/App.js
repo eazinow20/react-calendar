@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Calendar from './component/calendar/Calendar';
+import TaskBoard from './component/taskBoard/Taskboard';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    return (
+        <div
+            className="content-page"
+            style={{ marginLeft: '0', marginTop: '20px' }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            <div className="content">
+                <div className="container-fluid">
+                    <Calendar />
+                    <TaskBoard />
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;

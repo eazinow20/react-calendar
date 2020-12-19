@@ -1,0 +1,231 @@
+.custom-display {
+    border-left: 5px solid rgb(240, 98, 146);
+    box-shadow: 1px 1px 5px #8c9396;
+    border-radius: 7px;
+    height: 100%;
+}
+
+.custom-display > div {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    padding: 4px;
+}
+
+.custom-display p {
+    margin: 0;
+}
+
+.custom-display .task-name {
+    text-align: left;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.custom-display img {
+    border-radius: 100%;
+    width: 40px;
+}
+
+.custom-display > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* categories display */
+.category-form-list button {
+    font-size: 11px;
+    padding: 4px;
+    min-width: 53px;
+}
+
+.category-form-list .electrical {
+    border-color: rgb(49, 58, 70);
+    color: rgb(49, 58, 70);
+}
+
+.categories .electrical {
+    color: rgb(49, 58, 70);
+    background-color: rgba(49, 58, 70, 0.1);
+}
+
+.category-form-list .electrical:hover {
+    background-color: rgb(49, 58, 70);
+    color: white;
+}
+
+.category-form-list .plumbing {
+    border-color: rgb(142, 212, 25);
+    color: rgb(142, 212, 25);
+}
+
+.categories .plumbing {
+    color: rgb(142, 212, 25);
+    background-color: rgba(142, 212, 25, 0.1);
+}
+
+.category-form-list .plumbing:hover {
+    background-color: rgb(142, 212, 25);
+    color: white;
+}
+
+.category-form-list .air-conditioning {
+    border-color: rgb(240, 98, 146);
+    color: rgb(240, 98, 146);
+}
+
+.categories .air-conditioning {
+    color: rgb(240, 98, 146);
+    background-color: rgba(240, 98, 146, 0.1);
+}
+
+.category-form-list .air-conditioning:hover {
+    background-color: rgb(240, 98, 146);
+    color: white;
+}
+
+.category-form-list .wooden-doors {
+    border-color: rgb(253, 126, 20);
+    color: rgb(253, 126, 20);
+}
+
+.categories .wooden-doors {
+    color: rgb(253, 126, 20);
+    background-color: rgba(253, 126, 20, 0.3);
+}
+
+.category-form-list .wooden-doors:hover {
+    background-color: rgb(253, 126, 20);
+    color: white;
+}
+
+.category-form-list .flooring {
+    border-color: rgb(100, 197, 177);
+    color: rgb(100, 197, 177);
+}
+
+.categories .flooring {
+    color: rgb(100, 197, 177);
+    background-color: rgba(100, 197, 177, 0.1);
+}
+
+.category-form-list .flooring:hover {
+    background-color: rgb(100, 197, 177);
+    color: white;
+}
+
+.category-form-list .paint {
+    border-color: rgb(52, 211, 235);
+    color: rgb(52, 211, 235);
+}
+
+.categories .paint {
+    color: rgb(52, 211, 235);
+    background-color: rgba(52, 211, 235, 0.1);
+}
+
+.category-form-list .paint:hover {
+    background-color: rgb(52, 211, 235);
+    color: white;
+}
+
+.category-form-list .pop {
+    border-color: rgb(135, 255, 133);
+    color: rgb(135, 255, 133);
+}
+
+.categories .pop {
+    color: rgb(135, 255, 133);
+    background-color: rgba(135, 255, 133, 0.1);
+}
+
+.category-form-list .pop:hover {
+    background-color: rgb(135, 255, 133);
+    color: white;
+}
+
+.category-form-list .windows {
+    border-color: rgb(103, 90, 169);
+    color: rgb(103, 90, 169);
+}
+
+.categories .windows {
+    color: rgb(103, 90, 169);
+    background-color: rgba(103, 90, 169, 0.1);
+}
+
+.category-form-list .windows:hover {
+    background-color: rgb(103, 90, 169);
+    color: white;
+}
+
+.category-form-list .modular-wardrobe {
+    border-color: rgb(68, 137, 228);
+    color: rgb(68, 137, 228);
+}
+
+.categories .modular-wardrobe {
+    color: rgb(68, 137, 228);
+    background-color: rgba(68, 137, 228, 0.1);
+}
+
+.category-form-list .modular-wardrobe:hover {
+    background-color: rgb(68, 137, 228);
+    color: white;
+}
+
+.category-form-list .furniture {
+    border-color: rgb(255, 169, 28);
+    color: rgb(255, 169, 28);
+}
+
+.categories .furniture {
+    color: rgb(255, 169, 28);
+    background-color: rgba(255, 169, 28, 0.1);
+}
+
+.category-form-list .furniture:hover {
+    background-color: rgb(255, 169, 28);
+    color: white;
+}
+
+.category-form-list .civil {
+    border-color: rgb(140, 147, 150);
+    color: rgb(140, 147, 150);
+}
+
+.categories .civil {
+    color: rgb(140, 147, 150);
+    background-color: rgba(140, 147, 150, 0.1);
+}
+
+.category-form-list .civil:hover {
+    background-color: rgb(140, 147, 150);
+    color: white;
+}
+
+/* modal styling */
+.event-show-modal .modal-header {
+    padding: 1rem 1.5rem;
+}
+
+.event-show-modal .modal-body {
+    padding: 0;
+}
+
+.event-show-modal .card-box {
+    margin-bottom: 0;
+}
+
+.event-show-modal .assign-container {
+    display: flex;
+    height: 30px;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.event-show-modal .assign-container img {
+    width: 40px;
+    border-radius: 50%;
+}
